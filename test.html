@@ -1,9 +1,60 @@
-<h1>
-    xin chào 
-    <button> <a href="http://127.0.0.1:5500/form.html">back</a></button>
-   
-</h1>
-<label for="volume">Volume:</label>
-<input type="range" id="volume" name="volume" min="0" max="100">
-<label for="phone">Phone number:</label>
-<input type="tel" id="phone" name="phone">
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    button {
+        background:paleturquoise ;
+
+    }
+    button:hover {
+        background: orange;
+    }
+</style>
+
+<body>
+
+    <div class="login_form">
+        <div class="tt">
+            <h1 class id="form_title">Sign in</h1>
+
+            <select class="td" name="language" id="translate_select">
+                <option value="0">English</option>
+                <option value="1">Tiếng việt</option>
+            </select>
+
+        </div>
+      
+        <form id="loginform">
+
+            <div class="input_group">
+             
+                <h3>xin chào đã đăng nhập thành công!</h3>
+                <small class="kk" id="small"></small>
+
+            </div>
+
+        
+            <div class="input_group">
+                <button class="btn" type="submit" id="loginButton">  <a href="http://127.0.0.1:5500/form.html">back</a></button>
+           
+            </div>
+           
+        </form>
+
+    </div>
+
+    <!-- <script src="form.js"></script> -->
+
+</body>
+
+</html>
